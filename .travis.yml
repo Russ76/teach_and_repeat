@@ -22,7 +22,7 @@ install:
 
 script: 
   - cd
-  - git clone https://github.com/linorobot/teach_and_repeat
+  - git clone https://github.com/grassjelly/teach_and_repeat
   - cd teach_and_repeat
   - ./install
 
