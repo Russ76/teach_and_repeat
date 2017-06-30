@@ -16,7 +16,7 @@ cd src
 git clone https://github.com/grassjelly/husky-trainer
 git clone https://github.com/grassjelly/pointmatcher-ros
 
-cd 
+cd /tmp
 git clone https://github.com/grassjelly/libpointmatcher
 cd libpointmatcher
 mkdir build
