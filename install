@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+
+set -e 
+
+cd
+mkdir -p teach_and_repeat_ws/src
+cd teach_and_repeat_ws/src
+catkin_init_workspace
+cd ..
+catkin_make
+source devel/setup.bash
+
+sudo apt-get install ros-indigo-libnabo
+
+cd src
+git clone https://github.com/grassjelly/husky-trainer
+git clone https://github.com/grassjelly/pointmatcher-ros
+
+cd 
+git clone https://github.com/grassjelly/libpointmatcher
+cd libpointmatcher
+mkdir build
+cd build
+cmake ..
+make
+sudo make install
+cd ~/teach_and_repeat_ws
+catkin_make
