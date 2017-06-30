@@ -28,4 +28,4 @@ script:
 
 notifications:
   email:
-- jimenojmm@gmail.com
+    - jimenojmm@gmail.com
