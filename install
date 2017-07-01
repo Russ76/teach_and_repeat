@@ -11,6 +11,7 @@ catkin_make
 source devel/setup.bash
 
 sudo apt-get install ros-indigo-libnabo
+sudo apt-get remove ros-indigo-libpointmatcher
 
 cd src
 git clone https://github.com/grassjelly/pointmatcher-ros
