@@ -25,7 +25,7 @@ make
 sudo make install
 cd ~/teach_and_repeat_ws
 catkin_make
-source devel/setup.bash
+source ~/.bashrc
 
 cd src
 git clone https://github.com/grassjelly/husky-trainer
