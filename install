@@ -8,8 +8,8 @@ cd teach_and_repeat_ws/src
 catkin_init_workspace
 cd ..
 catkin_make
-source devel/setup.bash
-
+echo "source ~/teach_and_repeat_ws/devel/setup.bash" >> ~/.bashrc
+source ~/.bashrc
 sudo apt-get install ros-indigo-libnabo
 sudo apt-get remove ros-indigo-libpointmatcher
 
