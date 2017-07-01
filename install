@@ -21,7 +21,7 @@ mkdir build
 cd build
 cmake ..
 make
-sudo make instal
+sudo make install
 cd ~/teach_and_repeat_ws
 catkin_make
 
